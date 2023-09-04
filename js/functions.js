@@ -163,5 +163,5 @@ while (trueOrFalse) {
         alert("Opción no válida. Por favor, selecciona 'Si' o 'No'");
     }
 
-    console.log(`- Nombre: ${nombre}\n- Es mayor de edad: ${edadRespuesta}\n- Costo Servicio: ${costoServicio}\n- Valor del IVA: ${valorIva(costoServicio)}`);
+    console.log(`DATOS CONTACTO:\n- Nombre: ${nombre}\n- Es mayor de edad: ${edadRespuesta}\n- Correo Electrónico: ${email}\n- Servicio Requerido: ${servicioRequerido}\n\nCotizador rápido:\n- Costo Servicio: ${costoServicio}\n- Valor del IVA: ${valorIva(costoServicio)}\n\n`);
 }
